@@ -3,5 +3,6 @@ def introduction(name)
 end
 
 def introduction_with_language(name, lang)
-  puts "#{name} speaks #{lang}"
+  puts "#{name} knows #{lang.}"
 end
+
