@@ -2,4 +2,6 @@ def introduction(name)
   puts "Hello #{name}!"
 end
 
-def in
+def introduction_with_language(name, lang)
+  puts "#{name} speaks #{lang}"
+end
